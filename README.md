@@ -15,7 +15,7 @@
 - Now, you need set your toolchains' environment variables, the following is an example of the environment variables of a kernel compiled with pure gcc for Xiaomi 6 Android 9, you may need to modify it according to your kernel source code:
 ```bash
 > export PATH=$PATH:~/msm8998/toolchains/gcc/bin
-> export CROSS_COMPILE=aarch64-linux-linux-
+> export CROSS_COMPILE=aarch64-linux-android-
 > export ARCH=arm64
 ```
  
